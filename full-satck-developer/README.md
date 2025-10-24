@@ -24,7 +24,7 @@ Figma: https://www.figma.com/design/TQiqOmgVHUGQa7la5zAGlc/Machine-test-Web?node
 
 ## Data Requirement
 
-- Load the provided JSON dataset into PostgreSQL.
+- Load the provided JSON dataset into PostgreSQL: [car-results.json](./car-results.json).
 - Your backend must query PostgreSQL (not the JSON file at runtime) to serve the search results API consumed by the frontend.
 
 ---
@@ -47,7 +47,7 @@ Figma: https://www.figma.com/design/TQiqOmgVHUGQa7la5zAGlc/Machine-test-Web?node
 ## Evaluation Criteria
 
 - **UI Fidelity (Homepage):** Visual accuracy, spacing, typography, responsiveness.
-- **Functional Correctness (Search):** Pagination, filters, data flow from API/DB.
+- **Functional Correctness (Search Results Page):** Pagination, filters, data flow from API/DB.
 - **Code Quality:** Structure, typing, readability, reuse, error handling.
 - **UX Details:** Smooth interactions, clear states, accessibility considerations.
 - **Project Hygiene:** Clear repo organization and documentation of assumptions.
@@ -58,4 +58,4 @@ Figma: https://www.figma.com/design/TQiqOmgVHUGQa7la5zAGlc/Machine-test-Web?node
 ## Submission
 
 - Provide a Git repository link with frontend and backend code.
-- Hosting is preferred (frontend + backend). If hosting is not possible, include clear notes on how to run locally.
+- Hosting is preferred (frontend + backend). If hosting is not possible, include clear documentation on how to run locally.
